@@ -2,10 +2,11 @@
 	 - How are you.
  
  ```javascript 
-cy.get("[data-owner-id=12][data-proj-id=5]")
+cy.get("[data-cy=project][name=foobar]")
+cy.get("")
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM0ODg2MTksLTExOTY0Njk4MzgsLT
-YwNjA5MDI3OF19
+eyJoaXN0b3J5IjpbNDQzMTU2ODQwLC0xMTk2NDY5ODM4LC02MD
+YwOTAyNzhdfQ==
 -->
