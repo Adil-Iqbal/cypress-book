@@ -2,13 +2,16 @@
 	 - How are you.
  
  ```javascript 
- // Will select element with data-cy value of "project" AND "name" value of "foobar"
+// AND Logic
 cy.get("[data-cy=project][name=foobar]")
 
+// OR Logic (use ", " seperator)
 cy.get("[data-cy=project], [name=foobar]")
+
+
  ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjg3MDIwMSwtMTE5NjQ2OTgzOCwtNj
-A2MDkwMjc4XX0=
+eyJoaXN0b3J5IjpbNDYxNDU3Njg1LC0xMTk2NDY5ODM4LC02MD
+YwOTAyNzhdfQ==
 -->
