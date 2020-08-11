@@ -7,14 +7,22 @@ My name is Adil Iqbal.  I began my programming career at a start-up called GeoNo
 I also learned that *tests are (almost always) best written by the developer who built the feature being tested.* I presented Cypress to my team members, taught them the ropes, and made myself available as they began to write tests themselves. Then I thought, *why limit my newfound expertise to just the developers at my company?*
 
 ## Target Audience
-This book is for 4 categories of readers:
+This book is designed with 4 categories of readers in mind:
 
-1. The non-user who would like to begin using Cypress.
-2. The beginner who would like to improve their abilities to use Cypress.
-3. The advanced user who would like a refresher.
-4. For anyone who would like an overview of Cypress.
+### The non-user who wants to get started.
+Cypress does *a lot* to make new users feel comfortable using their tool. The Getting Started section on their website is a great place to start. When Cypress is initially installed, they include example test files that you can play around with to get a good feel of how Cypress operates. They've published a ton of example code if you need help beyond what's provided out of the box. The documentation is also stellar and designed for easy referencing.
 
-The book itself is structured with these four types of readers in mind. Though, I consider the first category the most important, I've written this book with all four categories in mind. This book is divided into two units: (1) Basics and (2) Advanced. These units 
+In addition to what Cypress provides, you have *yet another* resource in this book. This book will present that information in a digestible way that will set you up to *improve quickly*. The first unit is called **The Basics** and it assumes no prior knowledge of testing. The information you'll find there will be utilized heavily in the next unit and I recommend everyone reads it.
+
+ - ***Cypress Getting Started:*** [https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements](https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements)
+ - ***Cypress Examples:*** [https://docs.cypress.io/examples/examples/recipes.htm](https://docs.cypress.io/examples/examples/recipes.htm) 
+
+ 
+ - The beginner who would like to improve their abilities to use Cypress.
+ - The advanced user who would like a refresher.
+ - For anyone who would like an overview of Cypress.
+
+This book was designed with all four categories of readers
 
 ### Pre-requisite Familiarities
 For any readers who fall into category #1 or #4, it's worth mentioning that using Cypress requires a certain amount of pre-requisite knowledge. You do not have to have absolute mastery of any of these pre-requisites, but the better you know them, the more you'll be able to accomplish with Cypress.
