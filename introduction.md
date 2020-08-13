@@ -51,7 +51,7 @@ No matter where you are in terms of your experience with Cypress, there are some
 1. After reading **The Basics** unit, you should be able to:
 	* Install, configure, and run Cypress in your NodeJS project.
 	* Begin writing tests by selecting elements on the page and interacting with them.
-	* Run all of your tests 
+	* Run all or some of your tests.
 	* Do the recommended exercises and understand them.
 	* Open and review someone elses test code and not get too flustered by what you see.
 	* Begin writing your own tests with some confidence.
@@ -63,5 +63,5 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Use scoping and aliasing when selecting elements.
 	* Interact with the server without using the user interface.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDQ1OTkzOV19
+eyJoaXN0b3J5IjpbLTE4NDgzNDY0MDBdfQ==
 -->
