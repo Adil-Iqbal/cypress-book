@@ -59,8 +59,7 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Reset app state prior to every test run.
 	* Write tests that minimize the Test-Feedback loop.
 	* Use scoping and aliasing when selecting elements.
-	* Work with Cookies.
-	* Send requests
+	* Interact with the server without using the user interface.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDgyMDEzNDFdfQ==
+eyJoaXN0b3J5IjpbNzY0MzkzMzAyXX0=
 -->
