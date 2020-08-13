@@ -57,13 +57,14 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Begin writing your own tests with some confidence.
 
 2. After reading **The Advanced** unit, you should be able to:
-	* 
+	* Use the Test Runner to help you develope tests.
 	* Build complex app state across multiple tests.
 	* Reset app state prior to every test run.
 	* Write tests that minimize the Test-Feedback loop.
 	* Write conditional tests.
 	* Use scoping and aliasing when selecting elements.
 	* Interact with the server without using the user interface.
+	* Write custom commands.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY0MDk4NDBdfQ==
+eyJoaXN0b3J5IjpbMTY2MjIzNzU1OF19
 -->
