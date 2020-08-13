@@ -56,7 +56,10 @@ No matter where you are in terms of your experience with Cypress, there are some
 
 2. After reading **The Advanced** unit, you should be able to:
 	* Build complex app state across multiple tests.
-	* Reset app state prior to every test run 
+	* Reset app state prior to every test run.
+	* Write tests that minimize the Test-Feedback loop.
+	* Write tests that are less flaky in general.
+	*  Write custom commands
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTMzNjIzOV19
+eyJoaXN0b3J5IjpbMjYyNzEyMDUzXX0=
 -->
