@@ -55,7 +55,8 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Begin writing your own tests with some confidence.
 
 2. After reading **The Advanced** unit, you should be able to:
-	* Compose complex tests for enterprise 
+	* Build complex app state across multiple tests.
+	* Reset app state prior to every test run 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTMyNTEzNjBdfQ==
+eyJoaXN0b3J5IjpbMTA0MTMzNjIzOV19
 -->
