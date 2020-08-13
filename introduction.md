@@ -35,7 +35,7 @@ When you feel ready to continue your journey, the next unit lies waiting. It's c
 
 
 ### 1.2.4 Pre-requisite Familiarities
-No matter where you are in terms of your experience with Cypress, there are some things you need to be familiar with *before* you can start working with Cypress. Notice, I did not use the word "expert" or "master," I used the word "familiar." That said, the more you know about the following technologies, the more you'll be able to do with Cypress:
+No matter where you are in terms of your experience with Cypress, there are some things you need to be familiar with *before* you can start working with Cypress. Notice, I did not use the word "expert" or "master," I used the word "familiar." You just need to be able to work with these pre-requisites. That said, the more you know about the following technologies, the more you'll be able to do with Cypress:
 
  1. **Javascript** - Cypress is a Javascript library. In fact, you may hear me say this statement a few times during the book: "Cypress is *just* Javascript." The more adept you are at working with Javascript, the better off you will be when its time to develop tests. We'll review the most important Javascript concepts briefly - but it's your responsibility to have this skill on board as you read through this book.
  
@@ -44,9 +44,9 @@ No matter where you are in terms of your experience with Cypress, there are some
  3. **JSON** - Cypress uses a JSON in many places (one of which is their configuration file). It becomes especially important when we start talking about fixtures.
  4. **NodeJS** - Cypress is a node module, so any experience you have with node will be of benefit.
  
- ### 1.2.5 Value Propositio
+ ### 1.2.5 Value Proposition
  
- 
+ It's important to note what this book
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkwMjUwNjBdfQ==
+eyJoaXN0b3J5IjpbLTkzMjExNzkyMV19
 -->
