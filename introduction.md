@@ -46,7 +46,9 @@ No matter where you are in terms of your experience with Cypress, there are some
  
  ### 1.2.5 Value Proposition
  
- It's important to note what this book is offering you. By the time you finish reading this book (and hopefully the exercises that it recommends
+ It's important to note what this book is offering you. By the time you finish reading this book (and hopefully the exercises that it recommends) you should be able to do the following:
+
+1. After reading **The Basics** unit, you should be able to do the reco
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDQ3Mzg5MF19
+eyJoaXN0b3J5IjpbNTE2OTcwNThdfQ==
 -->
