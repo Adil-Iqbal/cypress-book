@@ -61,9 +61,10 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Build complex app state across multiple tests and reset app state prior to every test run.
 	* Write conditional tests.
 	* Use scoping and aliasing when selecting elements.
-	* Drag and drop, upload file, an
+	* Be able to work with cookies.
+	* Drag and drop, upload file, and select an option from a dropdown menu.
 	* Interact with the server without using the user interface.
 	* Write custom commands.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDU5NTUzM119
+eyJoaXN0b3J5IjpbLTg5OTg3NjcwMl19
 -->
