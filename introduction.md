@@ -44,9 +44,9 @@ No matter where you are in terms of your experience with Cypress, there are some
  3. **JSON** - Cypress uses a JSON in many places (one of which is their configuration file). It becomes especially important when we start talking about fixtures.
  4. **NodeJS** - Cypress is a node module, so any experience you have with node will be of benefit.
  
- ### 1.2.5 Suggested Utilities
+ ### 1.2.5 Value Propositio
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mjc0MjgyMF19
+eyJoaXN0b3J5IjpbLTE3OTkwMjUwNjBdfQ==
 -->
