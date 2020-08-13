@@ -49,10 +49,12 @@ No matter where you are in terms of your experience with Cypress, there are some
  It's important to note what this book is offering you. By the time you finish reading this book (and hopefully the exercises that it recommends) you should be able to do the following:
 
 1. After reading **The Basics** unit, you should be able to do the recommended exercizes. You should be able to:
-	* Install, configure, and run Cypress o
+	* Install, configure, and run Cypress in your NodeJS project.
 	* Do the recommended exercises and understand them.
 	* Open and review someone elses test code and not get too flustered by what you see.
-	* Begin writing your own tests.
+	* Begin writing your own tests with some confidence.
+
+2. After reading The Advanced unit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY2MzI4NzRdfQ==
+eyJoaXN0b3J5IjpbNDY3MDg0Mzk2XX0=
 -->
