@@ -58,8 +58,7 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Build complex app state across multiple tests.
 	* Reset app state prior to every test run.
 	* Write tests that minimize the Test-Feedback loop.
-	* Write tests that are less flaky in general.
-	*  Write custom commands
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNzEyMDUzXX0=
+eyJoaXN0b3J5IjpbLTQzOTA1ODY4N119
 -->
