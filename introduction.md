@@ -65,7 +65,7 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Drag and drop, upload file, and select an option from a dropdown menu.
 	* Ensure that your app is interacting with the server correctly.
 	* Interact with the server without using the user interface.
-	* Write custom commands.
+	* Write custom commands that are specific to your use cases.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDk5NTg3NF19
+eyJoaXN0b3J5IjpbLTE1NTYzNTA5MTcsMTU5NDk5NTg3NF19
 -->
