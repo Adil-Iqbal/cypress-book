@@ -49,7 +49,10 @@ No matter where you are in terms of your experience with Cypress, there are some
  It's important to note what this book is offering you. By the time you finish reading this book (and hopefully the exercises that it recommends) you should be able to do the following:
 
 1. After reading **The Basics** unit, you should be able to do the recommended exercizes. You should be able to:
-	* Open some
+	* Install, configure, and run Cypress o
+	* Do the recommended exercises and understand them.
+	* Open and review someone elses test code and not get too flustered by what you see.
+	* Begin writing your own tests.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM0OTQ4MzJdfQ==
+eyJoaXN0b3J5IjpbLTE1OTY2MzI4NzRdfQ==
 -->
