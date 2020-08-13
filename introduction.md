@@ -28,6 +28,8 @@ That said, Cypress does *a lot* to make new users feel comfortable using their t
 ### 1.2.2 The Average User
 When you feel ready to continue your journey, the next unit lies waiting. It's called **Advanced**, and there you'll start building the skills necessary to test enterprise applications. The **Advanced** unit is building on the knowledge you acquired in **The Basics** unit.  That's why its recommended that even those who have prior experience with Cypress take the time to read through **The Basics**. Once you've finished reading the **Advanced** unit, you'll be directed to another github repository, where you'll be asked to apply what you've learned. *Be warned: This time, there will be no hand-holding.*
 
+* ***jQuery Selection API:*** 
+
 ### 1.2.3 The Advanced User
  Each chapter in this book ends with a Chapter Summary and each unit ends with a Cheat Sheet that lists the commands for at-a-glance referencing. If you've used this book to learn Cypress the first time around, you'll notice that the chapters are numbered and most topics have been indexed.
 
@@ -46,5 +48,5 @@ No matter where you are in terms of your experience with Cypress, there are some
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDc1NTUxOV19
+eyJoaXN0b3J5IjpbMjI3MDYwMTY1XX0=
 -->
