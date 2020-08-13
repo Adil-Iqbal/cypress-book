@@ -63,8 +63,9 @@ No matter where you are in terms of your experience with Cypress, there are some
 	* Use scoping and aliasing when selecting elements.
 	* Be able to work with cookies.
 	* Drag and drop, upload file, and select an option from a dropdown menu.
+	* Ensure that your app is interacting with the server correctly.
 	* Interact with the server without using the user interface.
 	* Write custom commands.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTg3NjcwMl19
+eyJoaXN0b3J5IjpbMTU5NDk5NTg3NF19
 -->
