@@ -264,17 +264,27 @@ Seducing Cypress
 
 			* Auto-scroll, stop, and re-run
 
-
-	* **Exercise 1 - Run a test and visit repo**
-	* **Exercise 2 - Set the baseUrl and $schema in cypress.json**
-	* **Exercise 3 - Select a button, run an assert, and click it.**
-	* **Exercise 4 - Ensure that there are three buttons on the page. Click these buttons in this order (first, last, middle).**
-	* **Exercise 5 - Check three checkboxes and submit.**
-	* **Exercise 6 - Check one of two radios and submit.**
-		* NOTE: Avoid gender binary
-	* **Exercise 7 - Select div, and check a checkbox in sibling div.**
-	* **Exercise 8 - Select div, and check a checkbox in sibling div.**
-	* 
+	* Unit exercises
+		* Repo instructions
+			* git clone & npm install
+			* try yourself without reference.
+			* Then reference book and docs.
+			* Then check solutions below.
+			* Hand holding until exercise #11.
+		* **Exercise 1 - Run a test and visit repo**
+		* **Exercise 2 - Set the baseUrl and $schema in cypress.json**
+		* **Exercise 3 - Select a button, run an assert, and click it.**
+		* **Exercise 4 - Only use the selector cy.get("button"). Ensure that there are three buttons on the page. Click these buttons in this order (first, last, middle).**
+		* **Exercise 5 - Check three checkboxes and submit.**
+		* **Exercise 6 - Check one of two radios and submit.**
+			* avoid gender binary
+		* **Exercise 7 - Select div, and check a checkbox in sibling div and submit.**
+		* **Exercise 8 - Type a string into a text field and submit**
+		* **Exercise 9 - Get the contents of a p tag and type it into the textbox.**
+		* **Exercise 10 - Only use the following selector: get("[type=checkbox]"). 4x4 matrix of checkboxes. Only check checkboxes with label "Pick Me!" and click submit.**
+		* **Exercise 11 - 4x4 matrix of checkboxes. Only check checkboxes with id attr of "a" OR "b"**
+			* **Exercise 11 - 4x4 matrix of checkboxes. Only check checkboxes with id attr of "a" OR "b"**
+		* 
 
 * Radio and check boxes and submit.
 
