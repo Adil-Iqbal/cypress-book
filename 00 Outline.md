@@ -283,8 +283,8 @@ Seducing Cypress
 		* **Exercise 9 - Get the contents of a p tag and type it into the textbox.**
 		* **Exercise 10 - Only use the following selector: get("[type=checkbox]"). 4x4 matrix of checkboxes. Only check checkboxes with label "Pick Me!" and click submit.**
 		* **Exercise 11 - 4x4 matrix of checkboxes. Only check checkboxes with id attr of "a" OR "b"**
-			* **Exercise 11 - 4x4 matrix of checkboxes. Only check checkboxes with id attr of "a" OR "b"**
-		* 
+		* **Exercise 12 - 4x4 matrix of checkboxes. Only check checkboxes with id attr of "a" OR "b"**
+		* **Exercise 13 - 4x4 matrix of checkboxes. Only check checkboxes with id attr of "b" AND "c"**
 
 * Radio and check boxes and submit.
 
