@@ -51,10 +51,6 @@
 		* git clone repo
 		* `npm init`
 		* `npm install cypress --save-dev` 
-	* Command Line
-		* `npx cypress run`
-		* flags categorized
-			* special attention to `--config`
 	* Directory Tour
 		* integrations - where your tests live.
 		* support 
@@ -139,8 +135,12 @@
 	* Running Tests: Basics
 		* The Test Feedback loop
 		* Overview of the Process
-		* CLI Command
-			* `npm cypress run` vs `npm cypress open`
+		* The command line
+			* `npx cypress run`
+			* `npx cypress open`
+			* run vs. open
+		* flags categorized
+			* special attention to `--config`
 		* Test Launcher Tour
 		* Using .skip
 		* Using .only
