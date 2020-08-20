@@ -60,6 +60,7 @@
 			* data! 
 			* stores common data used across any and all tests.
 			* see docs for more info
+		* shout out to execution order.
 	* Configuration
 		* cypress.json
 		* `"$schema":  "https://on.cypress.io/cypress.schema.json",`
@@ -136,9 +137,11 @@
 		* The Test Feedback loop
 		* Overview of the Process
 		* The command line
-			* `npx cypress run`
 			* `npx cypress open`
-			* run vs. open
+			* `npx cypress run`
+			* run vs. open how the handle tests. 
+				* run-executes each file individually
+				* open-run all concatinates, 
 		* flags categorized
 			* special attention to `--config`
 		* Test Launcher Tour
@@ -146,6 +149,14 @@
 		* Using .only
 		* Remove .skip and .only before pushing or use https://github.com/bahmutov/stop-only
 		* It functions should be standalone. (more in next section)
+		* Execution order
+			- support/index.js first.
+			- plugin/index.js second.
+			- test file(s)
+			* how does this play out in the differnt ways we run our tests.
+				- npx cypress open, single test.
+				- npx cypress run, all specs run as a single test.
+				- npx cypress open, all -> all specs concat into single file, than that file is run.
 		* The Test Runner Tour: Basics
 			* Command log
 			* Run Time
@@ -175,7 +186,7 @@
 			* Exercise 13 - Create a second it block and ask it to log "second it block." Create a after hook and insert the following code (scroll down, click button)
  			* Exercise 14 - Add a before, beforeEach, and afterEach hook that clicks the buttons on toolbar below.
 # Advanced
-* Writing Tests: Advanced
+* Writing Tests
 	* The Test Runner Tour: Advanced
 		* The Test Runner is a dev tool.
 		* Re-run on save + .only or .skip
@@ -187,14 +198,15 @@
 		* Useful in debugging.
 		*  [https://github.com/bahmutov/cypress-skip-and-only-ui](https://github.com/bahmutov/cypress-skip-and-only-ui)
 
-* Test Composition
-	* it block
-		* Pending it functions
-		* Call back to standalone it.
-			* Repeated code in subsequent it functions 
-			* Remove problematic code?
-			* Merge tests?
-			* Use a before hook.
+	* Test Composition
+		* it block
+			* Pending it functions
+			* Configuring it functions (https://docs.cypress.io/guides/references/configuration.html#Test-Configuration)
+			* Call back to standalone it.
+				* Repeated code in subsequent it functions 
+				* Remove problematic code?
+				* Merge tests?
+				* Use a before hook.
 	* Building complex app state.
 		* It alone inside a describe.
 		* It with a before hook inside a describe.
@@ -207,6 +219,15 @@
 			* Cleaning global app state using before and support/index.js
 			* Clean app state in before hook, THEN build new app state.
 			* Failure in one test can affect subsequent tests. Tests that are further down on the list are more flaky. Sometimes clean app state *within* the it block prior to its execution.
+
+* Installation and Setup
+	* Directory Tour
+		* Git ignoring folders: screenshots, videos.
+		* Watched Folders vs. Unwatched folders. (https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Watching-tests)
+			* integrations, support, plugins, cypress.json, cypress.env.json are watched.
+			* fixtures, node_modules, and application code are unwatched.
+			* watch for file changes.
+	* Configuration
 * Identifying Elements
 	* Focused element. (google.com example) (contrast with .focus())
 	* Narrow search filter/not
