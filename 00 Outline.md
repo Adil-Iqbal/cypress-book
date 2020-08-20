@@ -72,12 +72,17 @@
 	* Summary and Cheat sheet
 * Foundational Concepts
 	* DOM and Javascript (always changing).
-	* Promises and Async code.
+	* Asynchrony in general
 	* Enque and the cy object.
 	* Parent commands, child commands, and hybrids.
 	* Retry ability simplified. timeout references.
+	
 * Writing Tests: Basics
-	* Goal of this section.
+	* Philosophy and goals.
+		* principles list - just focus on the first one: simulate the end user.
+			* The more your tests resemble the way your software is used, the more confidence they can give you. 
+			* Tests give you confidence!
+			* src: https://www.youtube.com/watch?v=F8LH9d9eN3M
 	* Balancing Priorities
 		* Automating user behavior. (User story)
 		* Interacting versus consuming.
@@ -96,6 +101,7 @@
 			* Pseudo Selectors
 		* Contains
 		* Selection Helpers
+		* currently selecting via implementation details. more to discuss in advanced. 
 		* Cheat Sheet
 	* Interacting with Elements
 		* User Story
@@ -198,6 +204,30 @@
 		* Useful in debugging.
 		*  [https://github.com/bahmutov/cypress-skip-and-only-ui](https://github.com/bahmutov/cypress-skip-and-only-ui)
 
+	* Philosophy:
+		* Testing and confidence. 
+		* Why we never stress test continued: collegues and runtime.
+		* When to test edge cases: common pathway features. mission critical features. company priorities (security. business unit.)
+		* testing the user experience and not implementation details.
+
+	* Identifying Elements
+		* Robust element selection:
+			* Pros and Cons of Selecting via implementation details.
+			* Pros and Cons Selecting using data-cy and splitting test and app code into seperate paradigms. (https://docs.cypress.io/guides/references/best-practices.html#Selecting-Elements)
+			* cypress-testing-library and findByRole, abstracting away from implementation details. (https://www.youtube.com/watch?v=F8LH9d9eN3M)
+			* caveats (sometimes select via implementation detail when that detail is critical to the functioning of your application)
+			* example example example!!! use the video!
+		
+		* Focused element. (google.com example) (contrast with .focus())
+		* Narrow search filter/not
+		* Scoping within/root
+		* Aliasing? Before each, cleared before hook.
+		* Window/document/title
+		* Cookies
+			* Clear cookie behavior \*clears before every it
+			* getCookie and getCookies
+		* Intro to wrap
+
 	* Test Composition
 		* it block
 			* Pending it functions
@@ -229,15 +259,6 @@
 			* watch for file changes.
 	* Configuration
 * Identifying Elements
-	* Focused element. (google.com example) (contrast with .focus())
-	* Narrow search filter/not
-	* Scoping within/root
-	* Aliasing? Before each, cleared before hook.
-	* Window/document/title
-	* Cookies
-		* Clear cookie behavior \*clears before every it
-		* getCookie and getCookies
-	* Intro to wrap
 * Interacting with the Server
 	* Request
 	* Repetitive DOM manipulation
